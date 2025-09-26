@@ -1,0 +1,11 @@
+.venv
+.bashrc_demo
+**/__pycache__/**
+**/media/**
+**/.coverage*
+/demo/demo/settings/develop.py
+/demo/demo/settings/production.py
+**/tests/tmp
+node_modules
+developpement.env
+/demo/theme/static/css/dist/*
