@@ -1,5 +1,5 @@
 .venv
-.bashrc_demo
+.bashrc_Demo
 **/__pycache__/**
 **/media/**
 **/.coverage*
