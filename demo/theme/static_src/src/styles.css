@@ -51,6 +51,14 @@
     @apply border;
   }
 
+  .prompt {
+    @apply border;
+  }
+
+  .response {
+    @apply text-blue-800 font-bold;
+  }
+
 
 
 
