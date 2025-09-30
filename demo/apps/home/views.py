@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 from .context import usercontext
 from .forms import PromptForm
-from .output import sentiment_classifier, text_gen
+from .output import sentiment_classifier  # , text_gen
 
 
 @login_required
