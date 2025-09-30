@@ -16,21 +16,21 @@ def sentiment_classifier(prompt):
     )
 
 
-# def text_gen(prompt):
+def text_gen(prompt):
 
-#     model = "meta-llama/Llama-3.2-1B-Instruct"
-#     pipe = pipeline(
-#         "text-generation",
-#         model=model,
-#         torch_dtype=torch.bfloat16,
-#         device=-1,  # run only cpu
-#     )
-#     messages = [
-#         {"role": "system", "content": prompt},
-#     ]
-#     response = pipe(
-#         messages,
-#         max_new_tokens=256,
-#     )[0]
+    model = "meta-llama/Llama-3.2-1B-Instruct"
+    pipe = pipeline(
+        "text-generation",
+        model=model,
+        torch_dtype=torch.bfloat16,
+        device=-1,  # run only cpu
+    )
+    messages = [
+        {"role": "system", "content": prompt},
+    ]
+    response = pipe(
+        messages,
+        max_new_tokens=256,
+    )[0]
 
-#     return response["generated_text"][1]["content"]
+    return response["generated_text"][1]["content"]
