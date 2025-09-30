@@ -19,7 +19,7 @@ def index(request):
     form = PromptForm(request.POST or None)
     if request.method == "POST" and form.is_valid():
         prompt = form.cleaned_data["prompt"]
-        response = text_gen(prompt)
+        response = sentiment_classifier(prompt)
         context.update({"prompt": prompt, "response": response, "request": True})
 
     context.update({"form": form})
