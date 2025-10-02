@@ -9,3 +9,5 @@
 node_modules
 developpement.env
 /demo/theme/static/css/dist/*
+/demo/passenger_wsgi.py
+/demo/tmp/*
