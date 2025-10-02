@@ -50,16 +50,20 @@
             <footer class="w-full mt-auto px-16 py-4 bg-margin text-slate-200">
                 <h2 class="text-md font-bold"> {{ Footer_description|find_content:30 }} </h2>
                 <ul class="flex flex-row justify-center items-center gap-4">
+                    {% if Lien_1|find_file != "" %}
                     <li>
-                        <a href="{{ Lien_X.lien }}" target=_blank >
-                            <img class="w-6 h-6" src="{{ Lien_X|find_file }}" alt="{{ Lien_X|find_content:1 }}"/>
+                        <a href="{{ Lien_1.lien }}" target=_blank >
+                            <img class="w-10 h-10" src="{{ Lien_1|find_file }}" alt="{{ Lien_1.contenu }}"/>
                         </a>
                     </li>
+                    {% endif %}
+                    {% if Lien_2|find_file != "" %}
                     <li>
-                        <a href="{{ Lien_yt.lien }}" target=_blank >
-                            <img class="w-8 h-8" src="{{ Lien_yt|find_file }}" alt="{{ Lien_yt|find_content:1 }}"/>
+                        <a href="{{ Lien_2.lien }}" target=_blank >
+                            <img class="w-10 h-10" src="{{ Lien_2|find_file }}" alt="{{ Lien_2.contenu }}"/>
                         </a>
                     </li>
+                    {% endif %}
                 </ul>
             {% if user.is_staff %}
                 <div class="mt-4 flex flex-row justify-center sm:justify-end">
