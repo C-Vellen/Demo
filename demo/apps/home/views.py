@@ -11,7 +11,6 @@ def index(request):
     context.update(
         {
             "titre_onglet": "Démo",
-            "titre_presentation": "Démonstration",
             "response": "",
             "request": False,
         }

@@ -13,24 +13,11 @@
 
 
 @theme {
-  /* custom colors :
-  margin:  bg de en-tête et footer
-  action: boutons d'action 
-  action2: actions de modification tutos
-  access:  boutons sur les droits d'accès */
+  /* custom colors :*/
 
-  /* --color-header:  "#468"; 
-  --color-action1: "#468"; 
-  --color-action2: "#468"; 
-  --color-access:  "#468";  */
-
-  --color-margin: #245;
-  --color-action: #008;
-  --color-action2: #86a;
-  --color-access: #0ff;
+  --color-margin: #333;
+  --color-action: #333;
 }
-
-
 
 
 @layer components {
@@ -48,11 +35,11 @@
   }
 
   .inputbox {
-    @apply border;
+    @apply border focus:outline-none focus:bg-amber-50;
   }
 
   .prompt {
-    @apply border;
+    @apply border focus:outline-none focus:border-2;
   }
 
   .response {
