@@ -35,7 +35,7 @@
   }
 
   .inputbox {
-    @apply border focus:outline-none focus:bg-amber-50;
+    @apply border-black border-1 focus:outline-none focus:bg-amber-50 valid:bg-green-200 invalid:text-red-600 placeholder:bg-green-600;
   }
 
   .prompt {
