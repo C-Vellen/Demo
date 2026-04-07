@@ -1,5 +1,5 @@
 from home.models import Libelles
-from demo.settings import DEBUG
+from src.settings import DEBUG
 
 
 def usercontext(request):

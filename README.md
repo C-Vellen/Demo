@@ -3,11 +3,11 @@
 ## &#128203; Généralités :
 - python3.12 / django 5.2 
 - librairies pytorch et transformers
-- base de donnée mysql
+- base de donnée postgresql
 - auteur : Christophe Vellen
 
 
-##  &#8205;&#127891; Démonstration : [ici](https://www.demo.experientiae.fr) [accès protégé par mot de passe]
+##  &#8205;&#127891; Démonstration : [ici](https://www.demo.ecosketch.fr) [accès protégé par mot de passe]
 
 ## &#127919; Objectifs :
 - expérimenter un chat avec un LLM opensource, depuis un serveur distant et en utilisant les librairies pytorch et transformers de HuggingFace

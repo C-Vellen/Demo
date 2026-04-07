@@ -3,7 +3,7 @@ from django.shortcuts import redirect
 from django.urls import reverse
 from django.contrib.auth import logout
 
-from demo.settings import DEBUG
+from src.settings import DEBUG
 
 
 
