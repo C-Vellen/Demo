@@ -3,8 +3,8 @@ from django.dispatch import receiver
 from django.shortcuts import get_object_or_404
 from django.http import Http404
 from django.db.models.signals import post_delete, pre_save
-from demo.settings import MEDIA_URL
-from demo.media_file_cleaning import auto_delete_file_on_delete, auto_delete_file_on_change
+from src.settings import MEDIA_URL
+from src.media_file_cleaning import auto_delete_file_on_delete, auto_delete_file_on_change
 from . import apps
 
 

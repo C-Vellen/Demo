@@ -6,7 +6,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.core import management
 from django.core.exceptions import PermissionDenied
 
-from demo.settings import DEBUG
+from src.settings import DEBUG
 from home.models import Libelles
 from .forms import ConnexionForm
 

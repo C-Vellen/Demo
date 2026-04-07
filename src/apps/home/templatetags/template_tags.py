@@ -1,7 +1,7 @@
 from django import template
 from django.http import Http404
 from django.utils import lorem_ipsum
-from demo.settings import MEDIA_URL
+from src.settings import MEDIA_URL
 from home.models import default_image_url
 
 register = template.Library()

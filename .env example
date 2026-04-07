@@ -1,0 +1,8 @@
+DB_ENG=django.db.backends.postgresql
+DB_NAME=xxxxxx
+DB_USER=xxxxxx
+DB_PASSWORD=xxxxxx
+DB_HOST=localhost
+DB_PORT=xxxx
+
+

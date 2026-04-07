@@ -1,7 +1,7 @@
 import torch
 from transformers import pipeline
 from huggingface_hub import login
-from demo.settings import HF_TOKEN
+from src.settings import HF_TOKEN
 
 login(token=HF_TOKEN)
 
